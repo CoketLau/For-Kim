@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From lauret</title>
+
+    <style>
+        body {
+            text-align: center;
+            background-color: bisque;
+        }
+
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 9pc;
+        }
+
+        #Boton {
+            border-radius: 15%;
+            cursor: pointer;
+            width: 20pc;
+            height: 10pc;
+            box-shadow: inset rgb(109, 89, 73);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(216, 101, 101);
+            font-size: 3.5pc;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Titulo">For my Kim❤️</h1>
+
+    <button id="Boton"> <i><strong>Click Here</strong></i> </button>
+
+    <script>
+        let Boton = document.getElementById("Boton")
+        let text = document.getElementById("Titulo")
+
+        Boton.addEventListener("click", function (lol) {
+            document.body.style.backgroundColor = "red";
+            text.textContent = "I LOVE YOU, I WANT TO BE WITH YOU FOREVER BABE❤️❤️❤️";
+            Boton.textContent = "LOVE UUUUUU"
+        });
+    </script>
+</body>
+</html>
